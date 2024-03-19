@@ -130,6 +130,7 @@
     }
 
     //BUCLES-------------------------------------------------------------------------------------------------------------------------
+    
     //While
 
     $contador = 0;
@@ -211,6 +212,19 @@
 
     }
 
+    // While: Se ejecuta mientras la condición sea verdadera.
+
+    // Do While: La condición se evalúa después de ejecutar el bloque de código. Esto asegura que el bloque se ejecute al menos una vez,
+    //incluso si la condición es falsa inicialmente.
+
+    // For: Este ciclo es una forma compacta de escribir ciclos que consisten en tres partes: la inicialización, la condición, y la expresión de incremento.
+
+    // Foreach: Este ciclo se utiliza específicamente para iterar sobre matrices y otros objetos iterables.
+
+    // Break: Se utiliza para salir inmediatamente del ciclo más cercano en el que está contenido.
+
+    // Continue: Se utiliza para omitir el resto del código en una iteración específica del ciclo y pasar a la siguiente iteración. 
+
     //FUNCIONES-------------------------------------------------------------------------------------------------------------------------
 
     //Funcion básica
@@ -245,6 +259,12 @@
 
     echo $c;
     echo "<br>";
+
+    //Otros------------------------------------------------------------------------------------------------------------------------
+
+    $variable = "Programacion";
+    var_dump($variable); // ver el contenido de una variable
+
 
 ?>
 
